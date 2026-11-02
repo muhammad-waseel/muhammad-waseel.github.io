@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Waseel — Growth Engineer candidate. Clear communicator with a software engineering background.">
+  <title>Muhammad Waseel | Growth Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2311151e'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='%2383a9ff' font-family='Arial' font-weight='700'>W</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .growth-hero{display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:center;padding-top:90px;padding-bottom:70px}
+    .growth-hero h1{font-family:var(--display);font-size:clamp(40px,5.4vw,68px);line-height:1.04;letter-spacing:-2px;margin:18px 0 22px}
+    .growth-hero .photo-card{justify-self:center;text-align:center}
+    .growth-hero .photo-card img{width:240px;height:240px;border-radius:50%;object-fit:cover;border:2px solid rgba(131,169,255,.45);box-shadow:0 0 60px rgba(131,169,255,.18)}
+    .growth-hero .photo-card p{margin-top:16px;font-size:13px;color:var(--muted)}
+    .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
+    .why-grid .skill-card p{color:var(--muted);font-size:13.5px;margin:8px 0 0}
+    .plan{margin-top:34px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .plan div{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:22px}
+    .plan small{font-size:10px;letter-spacing:1.6px;color:var(--cyan)}
+    .plan h3{font-family:var(--display);font-size:19px;margin:8px 0 6px}
+    .plan p{color:var(--muted);font-size:13px;margin:0}
+    .email-sample{margin-top:30px;max-width:780px;background:#0f141d;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+    .email-sample .head{padding:14px 22px;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+    .email-sample .head b{color:var(--text);font-weight:600}
+    .email-sample .body{padding:22px;font-size:14.5px;color:#d9dfe9;line-height:1.75}
+    .email-sample .body p{margin:0 0 12px}
+    .note{font-size:12px;color:#7f8a9c;margin-top:12px}
+    .pitch{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:30px;align-items:start}
+    .pitch ul{margin:0;padding-left:18px;color:var(--muted);font-size:14.5px}
+    .pitch li{margin-bottom:10px}
+    .code-strip{margin-top:26px}
+    @media(max-width:900px){.why-grid,.plan{grid-template-columns:1fr 1fr}.growth-hero{grid-template-columns:1fr;padding-top:60px;gap:30px}.pitch{grid-template-columns:1fr}}
+    @media(max-width:600px){.why-grid,.plan{grid-template-columns:1fr}.growth-hero .photo-card img{width:170px;height:170px}}
+  </style>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Waseel home"><span class="brand-mark">W.</span><span>WASEEL<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#why">Why me</a><a href="#plan">My plan</a><a href="#writing">Writing sample</a><a href="#pitching">Pitching</a><a href="../">Developer portfolio</a><a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-wrap growth-hero" id="home">
+      <div>
+        <div class="eyebrow"><span class="status-dot"></span> GROWTH ENGINEER · SOFTWARE ENGINEER</div>
+        <h1>Clear conversations.<br>Consistent follow-up.<br><span class="gradient-text">Booked demos.</span></h1>
+        <p class="hero-description">Hi, I'm <strong>Muhammad Waseel</strong>, a Software Engineering graduate from FAST-NUCES. I like explaining technology in plain language, and I'm organised about follow-up. I've built an AI product myself, so I can learn a product fast and explain to a busy clinic owner, in a few minutes, why it's worth a demo.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="../assets/Muhammad_Waseel_CV_Growth_Engineer.pdf" target="_blank" rel="noreferrer">Download CV <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/muhammad-waseel-dev" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/muhammad-waseel" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span class="social-divider"></span><span class="location-label">Remote · Available 7 PM – 3 AM PKT</span>
+        </div>
+      </div>
+      <div class="photo-card">
+        <img src="../assets/profile.jpg" alt="Muhammad Waseel" width="240" height="240">
+        <p>Lahore, Pakistan · English (Professional)</p>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="why">
+      <div class="section-heading"><span class="section-index">01 / WHY ME</span><h2>What I bring to a <span class="gradient-text">growth team.</span></h2></div>
+      <div class="why-grid">
+        <article class="skill-card"><div class="skill-icon">✆</div><h3>Clear communicator</h3><p>Professional spoken and written English. I keep messages short, friendly and focused on the other person's problem.</p></article>
+        <article class="skill-card"><div class="skill-icon">✓</div><h3>Organised like a CRM</h3><p>At Tron.ai I logged every issue in Jira the same day, with clear next steps and handoff notes. Nothing went cold.</p></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>Understands AI products</h3><p>I built ShopO-AI, an AI shopping tool, end to end. I can learn a product quickly and explain its value simply.</p></article>
+        <article class="skill-card"><div class="skill-icon">◷</div><h3>Reliable on U.S. hours</h3><p>Ready for Monday–Friday, 7 PM – 3 AM PKT, fully remote. Consistent, honest and quick to learn.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="plan">
+      <div class="section-heading"><span class="section-index">02 / MY PLAN</span><h2>How I'd ramp up in my <span class="gradient-text">first 90 days.</span></h2></div>
+      <p class="section-intro">Built around the targets in the role description.</p>
+      <div class="plan">
+        <div><small>WEEKS 1–3</small><h3>Learn &amp; certify</h3><p>Finish product and pitch training, learn the clinic types (dental, chiro, PT, med spa) and their common objections.</p></div>
+        <div><small>MONTH 1</small><h3>40 conversations / week</h3><p>Steady calls, emails and messages, with every touch logged in the CRM the same day. Goal: first 2 booked meetings.</p></div>
+        <div><small>MONTH 2</small><h3>60 conversations / week</h3><p>Sharper scripts from real objections, disciplined follow-up sequences, and 6 meetings a month.</p></div>
+        <div><small>MONTH 3+</small><h3>8–10 qualified meetings</h3><p>Clear handoff notes for the U.S. team, onboarding follow-ups for new clinics, and feedback shared every week.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="writing">
+      <div class="section-heading"><span class="section-index">03 / WRITING SAMPLE</span><h2>How I'd open a <span class="gradient-text">conversation.</span></h2></div>
+      <p class="section-intro">A short first-touch email I wrote to show my writing style.</p>
+      <div class="email-sample">
+        <div class="head"><b>To:</b> Dr. Smith, Bright Smile Dental &nbsp;·&nbsp; <b>Subject:</b> Quick question about new-patient calls</div>
+        <div class="body">
+          <p>Hi Dr. Smith,</p>
+          <p>Many dental practices tell us their front desk is so busy that some new-patient calls and messages slip through, especially after hours.</p>
+          <p>Z360 helps practices like yours use AI to respond faster and keep follow-ups on track, so fewer potential patients are missed.</p>
+          <p>Would you be open to a 15-minute demo this week? I can share a couple of time slots that suit your schedule.</p>
+          <p>Best regards,<br>Muhammad Waseel</p>
+        </div>
+      </div>
+      <p class="note">Sample written for this application. Real outreach would follow Z360's training and approved messaging.</p>
+    </section>
+
+    <section class="section section-wrap" id="pitching">
+      <div class="section-heading"><span class="section-index">04 / PRESENTING &amp; PITCHING</span><h2>I've pitched a product <span class="gradient-text">before.</span></h2></div>
+      <div class="pitch">
+        <article class="project-card">
+          <div class="project-art shop-art"><div class="art-label">FINAL YEAR PROJECT</div><div class="shop-window"><div class="shop-window-top"><span></span><span></span><span></span></div><div class="shop-window-body"><div class="shop-sidebar"></div><div class="shop-content"><div class="shop-title-line"></div><div class="shop-sub-line"></div><div class="product-row"><i></i><i></i><i></i></div><div class="shop-price-line"></div></div></div></div><div class="art-orb"></div></div>
+          <div class="project-info"><div class="project-meta"><span>AI PRODUCT</span><span>LIVE</span></div><h3>ShopO-AI</h3><p>Compares prices across Amazon, eBay, AliExpress and Daraz and tells shoppers whether a product is genuine before they buy.</p><div class="project-links"><a class="project-link" href="https://shopo-ai.onrender.com" target="_blank" rel="noreferrer">Live demo <span>↗</span></a><a class="project-link" href="https://github.com/muhammad-waseel/ShopO-AI" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+        </article>
+        <div>
+          <ul>
+            <li><strong>Presented and demoed it</strong> to the university evaluation panel, explaining the problem, the solution and the value to everyday shoppers.</li>
+            <li><strong>Kept the story simple:</strong> "Find the best price, and know it's genuine, before you buy."</li>
+            <li><strong>Answered tough questions</strong> on accuracy, data sources and reliability, which is good practice for handling objections.</li>
+            <li><strong>Understands what customers value:</strong> I built the AI "Best Pick" that ranks offers by price, seller trust and review sentiment.</li>
+          </ul>
+          <div class="code-strip">
+            <span class="section-index">AND YES, I CAN CODE</span>
+            <div class="tags" style="margin-top:12px"><span>JavaScript</span><span>Python</span><span>React</span><span>Node.js</span><span>MongoDB</span><span>SQL</span><span>REST APIs</span><span>Git</span><span>Docker</span><span>CI/CD</span></div>
+            <a class="project-link" style="margin-top:14px" href="../#projects">See my developer projects <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <span class="section-index">05 / CONTACT</span>
+        <h2>Let's book a <span class="gradient-text">conversation.</span></h2>
+        <p>I'd love to help Z360 reach more U.S. clinics. The quickest way to reach me is by email or LinkedIn.</p>
+        <div class="contact-direct">
+          <a href="mailto:waseelbhatti01@gmail.com">✉ waseelbhatti01@gmail.com</a>
+          <a href="tel:+923103777273">☏ +92 310 3777273</a>
+          <a href="https://www.linkedin.com/in/muhammad-waseel-dev" target="_blank" rel="noreferrer">in/muhammad-waseel-dev ↗</a>
+        </div>
+        <div class="contact-footer"><a class="brand" href="../"><span class="brand-mark">W.</span><span>WASEEL<span class="brand-dot">.</span></span></a><span>© 2026 Muhammad Waseel</span><a href="#home">Back to top ↑</a></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const t=document.getElementById('menuToggle'),n=document.getElementById('nav');
+    t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',String(o));});
+    n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');t.setAttribute('aria-expanded','false');}));
+  </script>
+</body>
+</html>
