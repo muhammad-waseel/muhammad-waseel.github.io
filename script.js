@@ -14,7 +14,7 @@ nav.querySelectorAll('a').forEach(link => {
 });
 
 // The form prepares an email in the visitor's default mail application.
-const portfolioEmail = 'waseelbhatti01@gmail.com';
+const portfolioEmail = 'muhammadwaseel37@gmail.com';
 document.getElementById('contactForm').addEventListener('submit', event => {
   event.preventDefault();
   const name = document.getElementById('senderName').value.trim();
