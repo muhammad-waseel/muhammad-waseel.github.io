@@ -12,3 +12,4 @@
 .contact-direct a:hover{color:#fff}
 @media(max-width:600px){.contact-direct{flex-direction:column;align-items:flex-start;gap:12px}.about-photo{width:120px;height:120px}}
 body{position:relative;overflow-x:clip}html{overflow-x:clip}
+.card-copy{color:var(--muted);font-size:13.5px;margin:8px 0 0;line-height:1.6}
